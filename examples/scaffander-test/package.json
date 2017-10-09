@@ -1,0 +1,11 @@
+{
+  "name": "scaffander-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "scaffander": "^1.0.0"
+  }
+}

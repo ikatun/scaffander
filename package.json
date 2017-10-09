@@ -1,0 +1,43 @@
+{
+  "name": "scaffander",
+  "version": "1.0.0",
+  "description": "Code generator library with support for structure templates",
+  "main": "./build",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "colors": "^1.1.2",
+    "diff": "^3.4.0",
+    "fs-extra": "^4.0.2",
+    "inquirer": "^3.3.0",
+    "lodash": "^4.17.4",
+    "lodash-get-or-set": "^1.0.2",
+    "mkdirp-promise": "^5.0.1",
+    "mustache": "^2.3.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "6"
+          }
+        }
+      ]
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
