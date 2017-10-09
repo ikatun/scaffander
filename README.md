@@ -42,3 +42,10 @@ const templatePath = path.join(__dirname, 'templates', templateName);
 scaffander(templatePath, destinationPath, context, { msg: 'Do you want to apply these changes?' });
 
 ```
+
+running the example (from the examples/scaffander-test directory)
+```
+npm install
+node index.js test-template generated-template
+# generated-template directory is created
+```
