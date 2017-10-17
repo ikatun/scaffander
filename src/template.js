@@ -23,7 +23,7 @@ async function instantiateTemplatePathRec(templatePath, destinationPath, context
     });
   } else if (templatePathState.isFile()) {
     const templateContent = await fs.readFile(templatePath, 'utf8');
-    context.diffLog[destinationPath] = await Mustache.render(templateContent, context);
+    context.diffLog[destinationPath] = await Mustache.render(templateContent, context, opts);
   }
 }
 
