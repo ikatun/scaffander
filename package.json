@@ -1,6 +1,6 @@
 {
   "name": "scaffander",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "Code generator library with support for structure templates",
   "main": "./build/scaffander",
   "scripts": {

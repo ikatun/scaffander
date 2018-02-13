@@ -27,6 +27,7 @@ var instantiateTemplatePathRec = function () {
             return _context.abrupt('return', null);
 
           case 2:
+
             destinationPath = _mustache2.default.render(destinationPath, context);
 
             _context.next = 5;
