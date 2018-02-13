@@ -9,6 +9,7 @@ async function instantiateTemplatePathRec(templatePath, destinationPath, context
   if (templatePath.endsWith('template-init.js')) {
     return null;
   }
+
   destinationPath = Mustache.render(destinationPath, context);
 
   const templatePathState = await fs.lstat(templatePath);
