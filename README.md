@@ -3,7 +3,7 @@ Code generator with support for structure templates
 
 Example template for scaffander-cli can be found here: https://github.com/ikatun/scaffander-example
 
-Example of a code generator (from examples/ directory)
+Example of usage as a library for code generator (from examples/ directory):
 ```
 .
 ├── index.js
