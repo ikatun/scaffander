@@ -8,6 +8,10 @@
     "build": "nnode --transpile",
     "prepack": "npm run build"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ikatun/scaffander"
+  },
   "bin": {
     "scaffander": "build/cli.js"
   },
